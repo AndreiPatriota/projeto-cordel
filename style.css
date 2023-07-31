@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+:root {
+  --fonte-titulo: 'Passion One', cursive;
+  --fonte-estrofe: 'Sriracha', cursive;
+  --fonte-normal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0px;
+}
+
+header {
+  font-family: var(--fonte-normal);
+  font-size: 1vw;
+  font-weight: lighter;
+  font-style: regular;
+
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 50px 0px;
+}
+
+header h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 9vw;
+}
+
+header h2 {
+  font-size: 0.9rem;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: blue;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+/* section {
+  border-style: solid;
+} */
+
+.estrofe {
+  font-family: var(--fonte-estrofe);
+  font-size: 3.4vw;
+  padding: 30px 20px;
+}
+
+#estrofe2 {
+  background: black url(imagens/background001.jpg) center center no-repeat fixed;
+  background-size: cover;
+
+  color: white;
+}
+
+#estrofe2 > p {
+  background-color: rgba(0, 0, 0, 0.498);
+  width: 44%;
+}
+
+#estrofe5 {
+  background: black url(imagens/background002.jpg) center center no-repeat fixed;
+  background-size: cover;
+
+  color: white;
+}
+
+#estrofe5 > p {
+  background-color: rgba(0, 0, 0, 0.498);
+  width: 44%;
+}
+
+footer {
+  font-family: var(--fonte-normal);
+  font-size: 1rem;
+  text-align: center;
+
+  background-color: black;
+  color: white;
+
+  padding: 10px 80px;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+  transition-duration: 0.3s;
+}
